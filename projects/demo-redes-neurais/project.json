@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-redes-neurais",
+  "title": "A Mente Sintética (demo do motor de renderização)",
+  "topic": "Inteligência artificial e redes neurais",
+  "createdAt": "2026-10-08T00:00:00.000Z",
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "settings": {
+    "targetRuntimeSec": { "min": 15, "max": 15 },
+    "narrativeStyle": "mysterious",
+    "language": "pt-BR",
+    "visualIntensity": "balanced",
+    "preset": "neon-noir",
+    "assetPreference": "procedural-only",
+    "resolution": "1080p",
+    "productionMode": "local"
+  }
+}

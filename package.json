@@ -18,6 +18,8 @@
     "dashboard": "npm --workspace @nero/dashboard run dev",
     "dashboard:build": "npm --workspace @nero/dashboard run build",
     "studio": "npm --workspace @nero/renderer run studio",
+    "render": "tsx apps/renderer/src/cli.ts render",
+    "render:demo": "tsx apps/renderer/src/cli.ts render demo-redes-neurais",
     "dev": "node scripts/dev.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "tsx --test \"tests/unit/**/*.test.ts\"",

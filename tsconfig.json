@@ -9,7 +9,8 @@
       "@nero/audio": ["./packages/audio/src/index.ts"],
       "@nero/assets": ["./packages/assets/src/index.ts"],
       "@nero/export": ["./packages/export/src/index.ts"],
-      "@nero/pipeline": ["./packages/pipeline/src/index.ts"]
+      "@nero/pipeline": ["./packages/pipeline/src/index.ts"],
+      "@nero/renderer": ["./apps/renderer/src/api.ts"]
     }
   },
   "include": ["./packages/*/src/**/*", "apps/server/src/**/*", "apps/renderer/src/**/*", "apps/dashboard/src/**/*", "tests/**/*"]

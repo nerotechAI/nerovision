@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "projectId": "demo-redes-neurais",
+  "title": "A Mente Sintética",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "A Mente Sintética",
+      "summary": "Abertura visual.",
+      "musicCue": "mystery"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s001",
+      "chapterId": "ch01",
+      "type": "chapter_card",
+      "narration": null,
+      "epistemic": "context",
+      "sourceIds": [],
+      "visual": {
+        "description": "Cartão de capítulo sobre poeira luminosa, com o número do capítulo em contorno ao fundo.",
+        "keywords": [],
+        "aiPrompt": null
+      },
+      "data": {},
+      "textOverlays": [],
+      "camera": "push-in",
+      "overlays": [
+        "grain",
+        "vignette",
+        "light-leak"
+      ],
+      "transition": {
+        "type": "cut",
+        "durationSec": 0
+      },
+      "sfx": [],
+      "musicCue": "mystery",
+      "minDurationSec": 2.5,
+      "pauseAfterSec": 0.35,
+      "index": 0,
+      "seed": 1299325338,
+      "asset": {
+        "source": "procedural",
+        "status": "procedural",
+        "path": null,
+        "assetId": null,
+        "kind": null,
+        "width": null,
+        "height": null,
+        "durationSec": null,
+        "score": null,
+        "license": {
+          "name": "Generated locally by Nero Vision Studio",
+          "url": null,
+          "author": "Nero Vision Studio (procedural)",
+          "sourceUrl": null,
+          "attribution": null,
+          "requiresAttribution": false,
+          "commercialUse": true,
+          "notes": "Original procedural output; no third-party material."
+        },
+        "locked": false
+      },
+      "narrationAudio": null,
+      "timing": {
+        "startSec": 0,
+        "endSec": 2.5,
+        "durationSec": 2.5,
+        "startFrame": 0,
+        "durationFrames": 75,
+        "narrationStartSec": null,
+        "narrationDurationSec": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "id": "s002",
+      "chapterId": "ch01",
+      "type": "neural_network",
+      "narration": null,
+      "epistemic": "context",
+      "sourceIds": [],
+      "visual": {
+        "description": "Rede neural em camadas no espaço 3D; as sinapses se desenham e passam a conduzir pulsos enquanto a câmera orbita.",
+        "keywords": [],
+        "aiPrompt": null
+      },
+      "data": {},
+      "textOverlays": [
+        {
+          "text": "Redes neurais artificiais",
+          "style": "tag",
+          "atSec": 0.5
+        },
+        {
+          "text": "Milhões de conexões aprendem a reconhecer padrões",
+          "style": "lower-third",
+          "atSec": 1.3
+        }
+      ],
+      "camera": "orbit",
+      "overlays": [
+        "grain",
+        "vignette",
+        "hud-frame"
+      ],
+      "transition": {
+        "type": "crossfade",
+        "durationSec": 0.6
+      },
+      "sfx": [],
+      "musicCue": "mystery",
+      "minDurationSec": 4,
+      "pauseAfterSec": 0.35,
+      "index": 1,
+      "seed": 1282547719,
+      "asset": {
+        "source": "procedural",
+        "status": "procedural",
+        "path": null,
+        "assetId": null,
+        "kind": null,
+        "width": null,
+        "height": null,
+        "durationSec": null,
+        "score": null,
+        "license": {
+          "name": "Generated locally by Nero Vision Studio",
+          "url": null,
+          "author": "Nero Vision Studio (procedural)",
+          "sourceUrl": null,
+          "attribution": null,
+          "requiresAttribution": false,
+          "commercialUse": true,
+          "notes": "Original procedural output; no third-party material."
+        },
+        "locked": false
+      },
+      "narrationAudio": null,
+      "timing": {
+        "startSec": 2.5,
+        "endSec": 6.5,
+        "durationSec": 4,
+        "startFrame": 75,
+        "durationFrames": 120,
+        "narrationStartSec": null,
+        "narrationDurationSec": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "id": "s003",
+      "chapterId": "ch01",
+      "type": "futuristic_interface",
+      "narration": null,
+      "epistemic": "context",
+      "sourceIds": [],
+      "visual": {
+        "description": "Interface holográfica: esfera em wireframe cercada por anéis de instrumentos e dois painéis de vidro flutuantes.",
+        "keywords": [],
+        "aiPrompt": null
+      },
+      "data": {
+        "hud": {
+          "readouts": [
+            {
+              "label": "Estado",
+              "value": "APRENDENDO"
+            },
+            {
+              "label": "Sinal",
+              "value": "ESTÁVEL"
+            },
+            {
+              "label": "Camadas",
+              "value": "ATIVAS"
+            },
+            {
+              "label": "Memória",
+              "value": "SINCRONIZADA"
+            }
+          ]
+        }
+      },
+      "textOverlays": [
+        {
+          "text": "Cada erro ajusta a próxima resposta",
+          "style": "caption",
+          "atSec": 1.1
+        }
+      ],
+      "camera": "drift",
+      "overlays": [
+        "grain",
+        "vignette",
+        "scanlines"
+      ],
+      "transition": {
+        "type": "glitch",
+        "durationSec": 0.4
+      },
+      "sfx": [],
+      "musicCue": "mystery",
+      "minDurationSec": 3,
+      "pauseAfterSec": 0.35,
+      "index": 2,
+      "seed": 1265770100,
+      "asset": {
+        "source": "procedural",
+        "status": "procedural",
+        "path": null,
+        "assetId": null,
+        "kind": null,
+        "width": null,
+        "height": null,
+        "durationSec": null,
+        "score": null,
+        "license": {
+          "name": "Generated locally by Nero Vision Studio",
+          "url": null,
+          "author": "Nero Vision Studio (procedural)",
+          "sourceUrl": null,
+          "attribution": null,
+          "requiresAttribution": false,
+          "commercialUse": true,
+          "notes": "Original procedural output; no third-party material."
+        },
+        "locked": false
+      },
+      "narrationAudio": null,
+      "timing": {
+        "startSec": 6.5,
+        "endSec": 9.5,
+        "durationSec": 3,
+        "startFrame": 195,
+        "durationFrames": 90,
+        "narrationStartSec": null,
+        "narrationDurationSec": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "id": "s004",
+      "chapterId": "ch01",
+      "type": "parallax_25d",
+      "narration": null,
+      "epistemic": "context",
+      "sourceIds": [],
+      "visual": {
+        "description": "Cidade de torres de dados em quatro planos de profundidade, separados por névoa e iluminados por trás.",
+        "keywords": [],
+        "aiPrompt": null
+      },
+      "data": {},
+      "textOverlays": [
+        {
+          "text": "Dados se tornam memória",
+          "style": "lower-third",
+          "atSec": 0.6
+        }
+      ],
+      "camera": "pan-right",
+      "overlays": [
+        "grain",
+        "vignette",
+        "fog"
+      ],
+      "transition": {
+        "type": "wipe",
+        "durationSec": 0.5
+      },
+      "sfx": [],
+      "musicCue": "mystery",
+      "minDurationSec": 2.5,
+      "pauseAfterSec": 0.35,
+      "index": 3,
+      "seed": 1248992481,
+      "asset": {
+        "source": "procedural",
+        "status": "needs-asset",
+        "path": null,
+        "assetId": null,
+        "kind": null,
+        "width": null,
+        "height": null,
+        "durationSec": null,
+        "score": null,
+        "license": {
+          "name": "Generated locally by Nero Vision Studio",
+          "url": null,
+          "author": "Nero Vision Studio (procedural)",
+          "sourceUrl": null,
+          "attribution": null,
+          "requiresAttribution": false,
+          "commercialUse": true,
+          "notes": "Original procedural output; no third-party material."
+        },
+        "locked": false
+      },
+      "narrationAudio": null,
+      "timing": {
+        "startSec": 9.5,
+        "endSec": 12,
+        "durationSec": 2.5,
+        "startFrame": 285,
+        "durationFrames": 75,
+        "narrationStartSec": null,
+        "narrationDurationSec": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": ""
+      }
+    },
+    {
+      "id": "s005",
+      "chapterId": "ch01",
+      "type": "typography",
+      "narration": null,
+      "epistemic": "context",
+      "sourceIds": [],
+      "visual": {
+        "description": "Frase final centralizada sobre anéis concêntricos e partículas, com recuo lento de câmera.",
+        "keywords": [],
+        "aiPrompt": null
+      },
+      "data": {},
+      "textOverlays": [
+        {
+          "text": "O futuro já está aprendendo.",
+          "style": "title",
+          "atSec": 0.45
+        },
+        {
+          "text": "NERO VISION STUDIO",
+          "style": "caption",
+          "atSec": 1.3
+        }
+      ],
+      "camera": "pull-out",
+      "overlays": [
+        "grain",
+        "vignette",
+        "light-leak"
+      ],
+      "transition": {
+        "type": "flash",
+        "durationSec": 0.4
+      },
+      "sfx": [],
+      "musicCue": "mystery",
+      "minDurationSec": 3,
+      "pauseAfterSec": 1.1,
+      "index": 4,
+      "seed": 1232214862,
+      "asset": {
+        "source": "procedural",
+        "status": "procedural",
+        "path": null,
+        "assetId": null,
+        "kind": null,
+        "width": null,
+        "height": null,
+        "durationSec": null,
+        "score": null,
+        "license": {
+          "name": "Generated locally by Nero Vision Studio",
+          "url": null,
+          "author": "Nero Vision Studio (procedural)",
+          "sourceUrl": null,
+          "attribution": null,
+          "requiresAttribution": false,
+          "commercialUse": true,
+          "notes": "Original procedural output; no third-party material."
+        },
+        "locked": false
+      },
+      "narrationAudio": null,
+      "timing": {
+        "startSec": 12,
+        "endSec": 15,
+        "durationSec": 3,
+        "startFrame": 360,
+        "durationFrames": 90,
+        "narrationStartSec": null,
+        "narrationDurationSec": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": ""
+      }
+    }
+  ],
+  "warnings": [
+    "Planning estimate: 0 narrated words ≈ 0.3 min (real duration comes from the generated voice)."
+  ]
+}
