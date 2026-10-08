@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@nero/schemas": ["./packages/schemas/src/index.ts"],
+      "@nero/core": ["./packages/core/src/index.ts"],
+      "@nero/timeline": ["./packages/timeline/src/index.ts"],
+      "@nero/audio": ["./packages/audio/src/index.ts"],
+      "@nero/assets": ["./packages/assets/src/index.ts"],
+      "@nero/export": ["./packages/export/src/index.ts"],
+      "@nero/pipeline": ["./packages/pipeline/src/index.ts"]
+    }
+  },
+  "include": ["./packages/*/src/**/*", "apps/server/src/**/*", "apps/renderer/src/**/*", "apps/dashboard/src/**/*", "tests/**/*"]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nero-vision-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first automated documentary production system (pt-BR, cyberpunk, 1080p30).",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "nero": "tsx packages/pipeline/src/cli.ts",
+    "doctor": "tsx packages/pipeline/src/cli.ts doctor",
+    "server": "tsx apps/server/src/main.ts",
+    "dashboard": "npm --workspace @nero/dashboard run dev",
+    "dashboard:build": "npm --workspace @nero/dashboard run build",
+    "studio": "npm --workspace @nero/renderer run studio",
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test \"tests/unit/**/*.test.ts\"",
+    "test:integration": "tsx --test \"tests/integration/**/*.test.ts\"",
+    "test:all": "npm run test && npm run test:integration",
+    "setup:python": "node scripts/setup-python.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

@@ -1,0 +1,59 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# secrets (never commit real keys; .env.example is committed)
+.env
+.env.*
+!.env.example
+
+# local database, caches, model weights
+.nero/
+.cache/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+python/**/models/
+*.onnx
+*.pth
+
+# build output
+dist/
+build/
+apps/*/dist/
+apps/renderer/out/
+.remotion/
+
+# generated media inside projects (keep editorial/storyboard JSON, drop heavy outputs)
+projects/*/narration/
+projects/*/assets/
+projects/*/audio/
+projects/*/render/
+projects/*/subtitles/
+projects/*/export/
+projects/*/qa/
+projects/*/checkpoints/
+projects/*/logs/
+projects/*/timeline.json
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+
+# downloaded stock footage (license metadata JSON stays tracked)
+assets/footage/**/*.mp4
+assets/images/**/*.jpg
+assets/images/**/*.jpeg
+assets/images/**/*.png
+
+# temp / OS / editors
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
